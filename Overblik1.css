@@ -1,0 +1,60 @@
+body {
+font-family: tahoma;
+  font-size: 15px;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 12px;
+  text-align: center;
+  color: #121254;
+  font-size: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #121254;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  width: 100%
+  height: 33.33%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  color: #121254;
+}
+
+canvas{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+#drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 800px;
+  font-family: sans-serif;
+  margin: 50px;
+  padding: 20px;
+}
+#drop-area.highlight {
+  border-color: purple;
+}
