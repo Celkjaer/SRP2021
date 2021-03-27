@@ -1,0 +1,65 @@
+body {
+  font-family: tahoma;
+  font-size: 15px;
+  background: #ffffff url("https://static.aktiedysten.dk/imgs/front-computer-1000x889.png") no-repeat right top;
+  background-size: 700px 600px;
+}
+
+#stock {
+  width: 200px;
+  height: 40px;
+  background-color: #cecece;
+  border: 1px solid #cccccc;
+  line-height: 40px;
+  text-align: center;
+}
+fieldset {
+  width: 180px;
+  border-radius: 10px;
+}
+
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  text-align: left;
+  position: relative;
+  display: table;
+  margin-left: 150px;
+  margin-right: 200px;
+  width: 500px;
+  top: 25px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #121254;
+  color: white;
+  padding: 20px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.4;
+}
+
+h1 {
+text-align: center;
+margin-top: 110px;
+margin-right: 625px;
+  color: #121254;
+}
